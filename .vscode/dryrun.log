@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/benhur/dev/loteria_java'
+javac GeraJogos.java
+javac JTextFieldLimit.java
+javac Formulario.java
+javac EventoLimpar.java
+javac Eventos.java
+javac Main.java
+jar cvfe loteria.jar Main GeraJogos.class JTextFieldLimit.class Formulario.class Eventos.class EventoLimpar.class Main.class
+make: Leaving directory '/home/benhur/dev/loteria_java'
+ 
